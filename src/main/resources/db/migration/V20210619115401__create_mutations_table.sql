@@ -6,6 +6,6 @@ CREATE TABLE mutations (
     wallet_receiver_id BIGINT UNSIGNED,
     amount DECIMAL(19, 2),
     created_date TIMESTAMP,
-    updated_date TIMESTAMP,
+    last_modified_date TIMESTAMP,
     PRIMARY KEY (id)
 )

@@ -33,6 +33,6 @@ public class Wallet {
     private LocalDateTime createdDate;
 
     @LastModifiedDate
-    @Column(name = "updated_date")
-    private LocalDateTime updatedDate;
+    @Column(name = "last_modified_date")
+    private LocalDateTime lastModifiedDate;
 }
